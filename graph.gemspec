@@ -6,10 +6,10 @@ require 'graph/version'
 Gem::Specification.new do |spec|
   spec.name          = "graph"
   spec.version       = Graph::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Edward Kabue"]
   spec.email         = ["kabueedward@yahoo.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = "Plots a graph of the number of integer occurrences against the integers."
+  spec.description   = "Enter the space separated integers in any order and they will be sorted in ascending order and their frequency of occurence will be plotted on the vertical axis."
   spec.homepage      = ""
   spec.license       = "MIT"
 
